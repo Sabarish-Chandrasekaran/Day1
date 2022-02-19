@@ -1,0 +1,14 @@
+Q2.Write a blog on Difference between HTTP1.1 vs HTTP2
+   HTTP1.1 loads resources one after the other, so if one resource cannot be loaded, it blocks all the other resources behind it.
+   HTTP2 where developers can assign each of these data streams a different weighted value, and the value tells the client which data stream to render first.
+   Hence HTTP2 is faster,reliable n secure.
+
+Q3.Write a blog about objects and its internal representation in Javascript
+   An object, is a reference data type. Variables that are assigned a reference value are given a reference or a pointer to that value.
+   Simply define the property and values inside curly braces as shown below
+   {
+   property:value
+   }
+   let bike = {name: "PassionPro", 
+               maker:"Hero", 
+               engine:"100cc"};
